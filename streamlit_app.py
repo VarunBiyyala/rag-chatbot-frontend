@@ -3,7 +3,7 @@ import requests
 import os
 
 # Change this if your backend is hosted elsewhere
-BACKEND_URL = https://rag-chatbot-backend-j9qx.onrender.com#"http://127.0.0.1:8000"
+BACKEND_URL = "https://rag-chatbot-backend-j9qx.onrender.com" #"http://127.0.0.1:8000"
 DOCS_FOLDER = "documents"  # if needed for display or info
 
 def upload_document():
